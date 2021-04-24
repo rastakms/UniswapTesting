@@ -1,0 +1,11 @@
+{
+  "name": "hardhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@10.20.30.43:amir.zsh/customuniswap.git",
+  "author": "amir zsh <amir.ziashahabi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "cd contracts && yarn hardhat run scripts/deploy.js"
+  }
+}
